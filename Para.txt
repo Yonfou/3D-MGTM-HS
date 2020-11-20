@@ -1,0 +1,23 @@
+!======================================================
+!                   3D Magnetic Gradient Tensor Modeling at High Susceptibility
+!======================================================
+!-------number-of-nodes-along-the-x-direction------------<NX>:         201 
+!-------number-of nodes-along-the-y-direction------------<NY>:         201
+!-------number-of-nodes along the z direction-------------<NZ>:         201
+!-------x coordinate-of-the-first-point-in-the-x-dirention--<X0>:         0.
+!-------y coordinate-of-the-first-point-in-the-y-dirention--<Y0>:         0.
+!-------z coordinate-of-the-first-point-in-the-z-dirention--<Z0>:         0.
+!-------x coordinate-of-the-end-point-in-the-x-dirention--<X1>:         1000.
+!-------y coordinate-of-the-end-point-in-the-y-dirention--<Y1>:         1000.
+!-------z coordinate-of-the-end-point-in-the-z-dirention--<Z1>:         1000.
+!-------number-of-itertation---------------------------------<NI>:         15
+!-------number-of-guass-nodes-must-less-than-5---------<NG>:         4
+!-------inclination-of-the-introducing-field---------------<AngI>:         60.
+!-------declination-of-the-introducing-field-------------<AngD>:          45.
+!-------stength-of-the-introducing-field-------------------<Bgr>:          5.D4
+!======================================================
+NOTE: (1) NG<=4
+          (2) Angle1: Inclination angle (in degree)
+          (3) Angle2: Declination angle (in degree)
+          (4) Bgr (in nT)
+!======================================================
