@@ -4,8 +4,6 @@
 !-------number-of-nodes-along-the-x-direction------------<NX>:         201 
 !-------number-of nodes-along-the-y-direction------------<NY>:         201
 !-------number-of-nodes along the z direction-------------<NZ>:         201
-!-------x coordinate-of-the-first-point-in-the-x-dirention--<X0>:         0.
-!-------y coordinate-of-the-first-point-in-the-y-dirention--<Y0>:         0.
 !-------z coordinate-of-the-first-point-in-the-z-dirention--<Z0>:         0.
 !-------x coordinate-of-the-end-point-in-the-x-dirention--<X1>:         1000.
 !-------y coordinate-of-the-end-point-in-the-y-dirention--<Y1>:         1000.
