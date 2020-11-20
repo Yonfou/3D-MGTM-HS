@@ -44,8 +44,6 @@ IMPLICIT NONE
                     READ(1,*) Tr,NX
                     READ(1,*) Tr,NY
                     READ(1,*) Tr,NZ
-                    READ(1,*) Tr,X0
-                    READ(1,*) Tr,Y0
                     READ(1,*) Tr,Z0
                     READ(1,*) Tr,X1
                     READ(1,*) Tr,Y1
@@ -68,9 +66,9 @@ IMPLICIT NONE
 
                                    
                 !-----------------------------------------------
-                CALL  Coordinates(NZ,Z0,Z1,DZ,Z)
-                CALL  Coordinates(NX,X0,X1,DX,X)
-                CALL  Coordinates(NY,Y0,Y1,DY,Y) 
+                       CALL  Coordinates(NZ,Z0,Z1,DZ,Z)
+                X0=0;  CALL  Coordinates(NX,X0,X1,DX,X)
+                Y0=0;  CALL  Coordinates(NY,Y0,Y1,DY,Y) 
                 !-----------------------------------------------
             
                 
@@ -93,7 +91,7 @@ IMPLICIT NONE
                 !-----------------------------------------------
                 CALL  Model(4)
                 
-                !--Notes£º
+                !--NotesÂ£Âº
                 !       1 = a sphere
                 !       2 = a spherical shell
                 !       3 = a ellipsoid
