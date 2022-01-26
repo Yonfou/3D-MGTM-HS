@@ -21,7 +21,7 @@ Ouyang F., and L. Chen (2021), A FORTRAN Program to Model Magnetic Gradient Tens
 
 Ouyang F., and L. Chen (2020), Iterative magnetic forward modeling for high susceptibility based on integral equation and Gauss-fast Fourier transform, GEOPHYSICS, 85(1): J1–J13, doi:10.1190/GEO2018-0851.1
 
-You will find A "live" version of the FORTRAN source-code for 3D-MGTM-HS at https://github.com/Yonfou/3D-MGTM-HS.
+You will find A "live" version of the FORTRAN source-code for 3D-MGTM-HS at https://github.com/Yonfou/3D-MGTM-HS. E-mail: FangOuyang92@163.com.
 
 ## Running the codes
 
