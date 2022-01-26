@@ -25,7 +25,7 @@ You will find A "live" version of the FORTRAN source-code for 3D-MGTM-HS at http
 
 ## Running the codes
 
-We provide a FORTRAN program to compute the three magnetic field components and six magnetic gradient tensor components at high susceptibility. The codes consist of 12 subroutines (.f90) and 2 files (.txt): ModelFile.txt and Para.txt. 
+We provide a FORTRAN program to compute the three magnetic field components and six magnetic gradient tensor components at high susceptibility. The codes consist of 14 subroutines (.f90) and 2 files (.txt): ModelFile.txt and Para.txt. 
 
 In the algorithm, the model is defined as NX×NY×NZ cells. The grid associated with the model is defined as the center of these cells.
 
