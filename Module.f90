@@ -34,6 +34,8 @@ IMPLICIT NONE
   INTEGER(KIND=4) :: NY        
   INTEGER(KIND=4) :: NZ     
   
+  INTEGER(KIND=4) :: TEST
+  
   REAL   (KIND=8) :: X0        
   REAL   (KIND=8) :: Y0       
   REAL   (KIND=8) :: Z0     
