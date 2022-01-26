@@ -23,3 +23,8 @@ Ouyang F., and L. Chen (2020), Iterative magnetic forward modeling for high susc
 
 You will find A "live" version of the FORTRAN source-code for 3D-MGTM-HS at https://github.com/Yonfou/3D-MGTM-HS.
 
+## License
+
+All source code is made available under a BSD 3-clause license. You can freely use and modify the code, without warranty, so long as you provide attribution to the authors. See LICENSE.md for the full license text.
+
+The manuscript text is not open source. The rights to the article content are reserved to the journal Minerals and Geophysics , where it has been accepted for publication.
