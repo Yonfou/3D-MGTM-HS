@@ -13,9 +13,9 @@
 60.                    !-------Inclination-of-the-introducing-field (in degree)
 45.                    !-------Declination-of-the-introducing-field (in degree)
 5.D4                 !-------Stength-of-the-introducing-field (in nT)
-Modelfile.txt    !-------Model file name, the file gives the the magnetic susceptibility at each grid point (Here Sphere model as an example)
+Modelfile.txt    !-------Model file name, the file gives the the magnetic susceptibility at each grid point 
 Resultfile.txt    !-------Result file name, the file will save the calculated magnetic anomalies at Z=Z0.
-1                      !-------IF=1, use the sphere model to test the algorithm, ELSE calculate the mangetic fields using the input model from Modelfile.txt 
+1                      !-------IF=1, use the sphere model to test the algorithm, ELSE calculate the mangetic fields using the model from Modelfile.txt 
 !======================================================
 NOTE:  
 
