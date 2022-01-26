@@ -13,6 +13,8 @@ doi:10.3390/min11101129  (Minerals)
 
 doi:10.1190/GEO2018-0851.1  (Geophysics)
 
+
+
 Please cite it as:
 
 Ouyang F., and L. Chen (2020), A FORTRAN Program to Model Magnetic Gradient Tensor at High Susceptibility Using Contraction Integral Equation Method, MINERALS, 11(10), 1129, doi:10.3390/min11101129
