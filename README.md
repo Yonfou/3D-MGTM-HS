@@ -10,6 +10,7 @@ The 3D-MGTM-HS package is written in the FORTRAN programming language and has no
 The manuscript has been published in the journal Minerals on October 2021, and a relevant manuscript can also be found in the journal Geophysics on the January-February 2020 issue.
 
 doi:10.3390/min11101129  (Minerals)
+
 doi:10.1190/GEO2018-0851.1  (Geophysics)
 
 Please cite it as:
