@@ -23,6 +23,18 @@ Ouyang F., and L. Chen (2020), Iterative magnetic forward modeling for high susc
 
 You will find A "live" version of the FORTRAN source-code for 3D-MGTM-HS at https://github.com/Yonfou/3D-MGTM-HS.
 
+## Running the codes
+
+We provide a FORTRAN program to compute the three magnetic field components and six magnetic gradient tensor components at high susceptibility. The codes consist of several 12 subroutines and 2 files: ModelFile.txt and Para.txt. 
+
+In the algorithm, the model is defined as NX*NY*NZ cells. The grid associated with the model is defined as the center of these cells.
+
+In the Modelfile.txt, each line has 1 values (i.e. the magnetic susceptibility) and there are NX*NY*NZ lines in the file. X-coordinates are the inner loop, then the Y-coordinates, and the Z-coordinates are the outer-most loop. Note that the starting points of the X- and Y-coordinates are set to be ZEROS. UNIFORMLY-SPACED SAMPLING is used in ALL THREE directions.
+
+In the Resultfile.txt, each line has 12 values,  including the x-, y-, z-coordinates,  the three magnetic field components, and six magnetic gradient tensor components. There are NX*NY lines in this file.
+
+To run the codes successfully, the Intel Math Kernel Library should be used. 
+
 ## License
 
 All source code is made available under a BSD 3-clause license. You can freely use and modify the code, without warranty, so long as you provide attribution to the authors. See LICENSE.md for the full license text.
